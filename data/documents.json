@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "title": "Authentication",
+    "text": "Authentication verifies the identity of a user. Common methods include passwords, multi-factor authentication, and biometric verification."
+  },
+  {
+    "id": 2,
+    "title": "Authorization",
+    "text": "Authorization determines which resources and actions an authenticated user is permitted to access. Role-based access control is a common approach."
+  },
+  {
+    "id": 3,
+    "title": "SQL Indexes",
+    "text": "Database indexes improve the speed of data retrieval. They reduce the need for full table scans but require additional storage and can slow down writes."
+  },
+  {
+    "id": 4,
+    "title": "Caching",
+    "text": "Caching stores frequently requested data in a faster storage layer. Redis is commonly used to reduce database load and improve application response times."
+  },
+  {
+    "id": 5,
+    "title": "Password Security",
+    "text": "Passwords should be stored using secure password hashing algorithms such as Argon2 or bcrypt, with unique salts. Plaintext password storage should be avoided."
+  },
+  {
+    "id": 6,
+    "title": "REST APIs",
+    "text": "REST APIs expose resources over HTTP using methods such as GET, POST, PUT, PATCH, and DELETE. They commonly exchange data in JSON format."
+  },
+  {
+    "id": 7,
+    "title": "Asynchronous Processing",
+    "text": "Background task queues allow slow operations to run outside the request-response cycle. Celery and Redis can process tasks such as sending emails and generating reports."
+  },
+  {
+    "id": 8,
+    "title": "Vector Embeddings",
+    "text": "Embedding models convert text into numerical vectors that represent semantic information. Similar meanings can produce nearby vectors in an embedding space."
+  },
+  {
+    "id": 9,
+    "title": "Semantic Search",
+    "text": "Semantic search retrieves information according to the meaning of a query rather than relying only on exact keyword matches."
+  },
+  {
+    "id": 10,
+    "title": "Rate Limiting",
+    "text": "Rate limiting restricts how many requests a client can make during a time window. It helps protect APIs from abuse and excessive traffic."
+  }
+]
